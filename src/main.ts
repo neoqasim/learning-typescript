@@ -2,6 +2,7 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import { setupCounter } from './counter.ts'
 import "./practice.ts"
+import "./types.ts"
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
