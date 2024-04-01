@@ -21,3 +21,7 @@
 // } else {
 //     console.log('Option is disabled')
 // }
+
+// let num1: number = 5
+// let num2: any = '5'
+// console.log(num1 === num2);
