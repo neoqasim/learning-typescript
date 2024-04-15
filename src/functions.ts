@@ -34,17 +34,34 @@
 // }
 // ? console.log("yes it's in the array ") : console.log("no it's not in the array");
 
-function calculatePrice(price: number, discount: number): number {
-    return price - discount
-}
+// function calculatePrice(price: number, discount: number): number {
+//     return price - discount
+// }
 
-let dicountedPrice = calculatePrice(1500, 300)
-console.log('dicounted Price', dicountedPrice)
+// let dicountedPrice = calculatePrice(1500, 300)
+// console.log('dicounted Price', dicountedPrice)
 
 
-function sum(maessage: string, ...numbers: number[]) {
-    const doubled = numbers.map((num) => (num * 2))
-    console.log(doubled);
-}
+// function sum(maessage: string, ...numbers: number[]) {
+//     const doubled = numbers.map((num) => (num * 2))
+//     console.log(doubled);
 
-sum('the doubled result is ', 2, 4, 6, 8)
+//     let total = numbers.reduce((prev, curr) => {
+//         return prev + curr
+//     }, 0)
+//     return `${maessage} ${total} `
+
+// }
+// console.log(sum('the doubled result is ', 2, 4, 6, 8));
+
+// ----------------------  type union function ----------------------------------
+// function processInput(input: string | number) {
+//     if (typeof input == "number") {
+//         return input * 2
+//     }
+//     else {
+//         return input.toUpperCase()
+//     }
+// }
+// console.log(processInput('qasim'));
+
